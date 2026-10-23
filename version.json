@@ -1,7 +1,7 @@
 {
-  "version": "0.9.82",
-  "zip": "",
-  "md5": "",
-  "notes_fr": "Version en ligne sur le serveur.",
-  "notes_en": "Version live on the server."
+  "version": "0.9.83",
+  "zip": "https://www.swisstransfer.com/dl/01a169c0-129f-73b1-9137-528374ab9ced",
+  "md5": "73084fd2fff494eb951f9d1484d5d9e5",
+  "notes_fr": "Correctif des erreurs, poker (abattage all-in, recave, jetons, bouton dealer, trefle et pique), fonds du menu.",
+  "notes_en": "Error fixes, poker (all-in showdown, rebuy, chips, dealer button, clubs and spades), menu backgrounds."
 }
