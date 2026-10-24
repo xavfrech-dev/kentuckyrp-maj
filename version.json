@@ -1,19 +1,19 @@
 {
-  "version": "0.9.89",
+  "version": "0.9.90",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Audit complet : les quetes uniques se refont apres une mort definitive ; le pret bancaire est efface a la mort ; les appels en cours sont raccroches a la mort. Le GPS de quete est garde a la reconnexion ; le Mode streamer coupe aussi le DJ Booth et la musique de Lifestyle. Jeep J10 : roue de secours revenue ; fuites memoire des PNJ et des corps corrigees ; minuteries independantes des FPS. Radio de la loco, places d'avions a Brandenburg, fiches de persos coherentes, 33 reglages ajoutes au menu admin. Tele du telephone : erreur de traduction corrigee (3 379 erreurs dans la console).",
-  "notes_en": "Full audit: one-time quests can be done again after a permanent death; the bank loan is cleared on death; ongoing calls hang up on death. The quest GPS is kept on reconnect; Streamer mode also mutes the DJ Booth and Lifestyle music. Jeep J10: spare tire is back; NPC and body memory leaks fixed; timers no longer depend on FPS. Locomotive radio, aircraft spots at Brandenburg, consistent character sheets, 33 settings added to the admin menu. Phone TV: translation error fixed (3,379 console errors).",
+  "notes_fr": "Performances : un ordonnanceur commun remplace une centaine de minuteries qui tournaient a chaque image (client et serveur), la liste des zombies est lue une seule fois par image, et les gestionnaires par zombie passent de 3 a 1 (reglage Scheduler pour revenir a l'ancien fonctionnement). Snap : les flammes comptent en jours reels en multi, comme le casino et les defis (series existantes conservees). Tele du telephone : XP comme une vraie tele par defaut ; debug du staff coupe par defaut.",
+  "notes_en": "Performance: a shared scheduler replaces about a hundred timers that ran every frame (client and server), the zombie list is read once per frame, and per-zombie handlers go from 3 to 1 (Scheduler setting to go back to the old behaviour). Snap: streaks count in real days in multiplayer, like the casino and challenges (existing streaks kept). Phone TV: same XP as a real TV by default; staff debug off by default.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.0",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.89.txt",
-  "manifest_md5": "9416efef449281c4b5987fd0140ea0c0",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.90.txt",
+  "manifest_md5": "0f5b9a2f58838ff5f706916f42155950",
   "patches": [
     {
       "from": "0.9.84",
@@ -54,9 +54,23 @@
       "md5": "a17dc16864020352f572cbe5e3b1a7a0",
       "size": 1578190,
       "delete": []
+    },
+    {
+      "from": "0.9.89",
+      "to": "0.9.90",
+      "zip": "https://drive.usercontent.google.com/download?id=1Kg0XtUWppChhKMET37ExyUnzZuUCChpD&export=download&confirm=t",
+      "md5": "c0427e5dc4605b5c4742df30faf20f84",
+      "size": 1805665,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.90",
+      "date": "2026-10-24",
+      "notes_fr": "Performances : un ordonnanceur commun remplace une centaine de minuteries qui tournaient a chaque image (client et serveur), la liste des zombies est lue une seule fois par image, et les gestionnaires par zombie passent de 3 a 1 (reglage Scheduler pour revenir a l'ancien fonctionnement).\nSnap : les flammes comptent en jours reels en multi, comme le casino et les defis (series existantes conservees).\nTele du telephone : XP comme une vraie tele par defaut ; debug du staff coupe par defaut.",
+      "notes_en": "Performance: a shared scheduler replaces about a hundred timers that ran every frame (client and server), the zombie list is read once per frame, and per-zombie handlers go from 3 to 1 (Scheduler setting to go back to the old behaviour).\nSnap: streaks count in real days in multiplayer, like the casino and challenges (existing streaks kept).\nPhone TV: same XP as a real TV by default; staff debug off by default."
+    },
     {
       "version": "0.9.89",
       "date": "2026-10-24",
