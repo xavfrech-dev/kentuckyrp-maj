@@ -1,19 +1,19 @@
 {
-  "version": "0.9.88",
+  "version": "0.9.89",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Wagon : la voie de garage est est libre, plus de mur invisible. Tele : l'interrupteur bascule en un seul clic, le guide du telephone est corrige. Loco : corrections du diesel. Traductions FR et EN mises a jour.",
-  "notes_en": "Boxcar: the east siding is clear, no more invisible wall. TV: the switch toggles in a single click, the phone guide is fixed. Locomotive: diesel fixes. FR and EN translations updated.",
+  "notes_fr": "Audit complet : les quetes uniques se refont apres une mort definitive ; le pret bancaire est efface a la mort ; les appels en cours sont raccroches a la mort. Le GPS de quete est garde a la reconnexion ; le Mode streamer coupe aussi le DJ Booth et la musique de Lifestyle. Jeep J10 : roue de secours revenue ; fuites memoire des PNJ et des corps corrigees ; minuteries independantes des FPS. Radio de la loco, places d'avions a Brandenburg, fiches de persos coherentes, 33 reglages ajoutes au menu admin. Tele du telephone : erreur de traduction corrigee (3 379 erreurs dans la console).",
+  "notes_en": "Full audit: one-time quests can be done again after a permanent death; the bank loan is cleared on death; ongoing calls hang up on death. The quest GPS is kept on reconnect; Streamer mode also mutes the DJ Booth and Lifestyle music. Jeep J10: spare tire is back; NPC and body memory leaks fixed; timers no longer depend on FPS. Locomotive radio, aircraft spots at Brandenburg, consistent character sheets, 33 settings added to the admin menu. Phone TV: translation error fixed (3,379 console errors).",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.0",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.88.txt",
-  "manifest_md5": "f01dbbd8d3e6f0f10da0efb0bb23f7b3",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.89.txt",
+  "manifest_md5": "9416efef449281c4b5987fd0140ea0c0",
   "patches": [
     {
       "from": "0.9.84",
@@ -46,9 +46,23 @@
       "md5": "d83bd63da8efeecec66fcd94702a9995",
       "size": 907190,
       "delete": []
+    },
+    {
+      "from": "0.9.88",
+      "to": "0.9.89",
+      "zip": "https://drive.usercontent.google.com/download?id=1ewMdiUpDTpacoG-Rs8R8wkamSRSvn85x&export=download&confirm=t",
+      "md5": "a17dc16864020352f572cbe5e3b1a7a0",
+      "size": 1578190,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.89",
+      "date": "2026-10-24",
+      "notes_fr": "Audit complet : les quetes uniques se refont apres une mort definitive ; le pret bancaire est efface a la mort ; les appels en cours sont raccroches a la mort.\nLe GPS de quete est garde a la reconnexion ; le Mode streamer coupe aussi le DJ Booth et la musique de Lifestyle.\nJeep J10 : roue de secours revenue ; fuites memoire des PNJ et des corps corrigees ; minuteries independantes des FPS.\nRadio de la loco, places d'avions a Brandenburg, fiches de persos coherentes, 33 reglages ajoutes au menu admin.\nTele du telephone : erreur de traduction corrigee (3 379 erreurs dans la console).",
+      "notes_en": "Full audit: one-time quests can be done again after a permanent death; the bank loan is cleared on death; ongoing calls hang up on death.\nThe quest GPS is kept on reconnect; Streamer mode also mutes the DJ Booth and Lifestyle music.\nJeep J10: spare tire is back; NPC and body memory leaks fixed; timers no longer depend on FPS.\nLocomotive radio, aircraft spots at Brandenburg, consistent character sheets, 33 settings added to the admin menu.\nPhone TV: translation error fixed (3,379 console errors)."
+    },
     {
       "version": "0.9.88",
       "date": "2026-10-24",
@@ -102,12 +116,6 @@
       "date": "2026-10-24",
       "notes_fr": "Nouveaux mods : helicoptere UH-1B Huey, Lamborghini Countach 1978, skateboards et velos.\nChez Big Ray : skate et velos (abordables), Countach (tres cheres), Huey (le plus cher du jeu).\nPZ Pulse retire.",
       "notes_en": "New mods: UH-1B Huey helicopter, 1978 Lamborghini Countach, skateboards and bikes.\nAt Big Ray's: skate and bikes (affordable), Countach (very expensive), Huey (the most expensive item in the game).\nPZ Pulse removed."
-    },
-    {
-      "version": "0.9.79",
-      "date": "2026-10-23",
-      "notes_fr": "Telephone : la tele avec de vraies videos.\nBateaux : GPS marin.\nTrain : GPS du train, wagon voyageurs avec interieur 3D, cabine 3D detaillee, nouvelle livree, fumee reglable.\nPassages a niveau realistes. Menus aux couleurs Kentucky RP. Performances ameliorees.",
-      "notes_en": "Phone: TV with real videos.\nBoats: marine GPS.\nTrain: train GPS, passenger coach with 3D interior, detailed 3D cab, new livery, adjustable smoke.\nRealistic level crossings. Kentucky RP coloured menus. Better performance."
     }
   ]
 }
