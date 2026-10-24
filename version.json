@@ -1,19 +1,19 @@
 {
-  "version": "0.9.96",
+  "version": "0.9.97",
   "date": "2026-10-25",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Train : en multi, le train ne part plus a l'envers et ne ralentit plus tout seul ; mouvement plus regulier. Ada (Brandenburg) : sa loco est posee correctement sur la voie au depot et revient apres un redemarrage du serveur. Metier Freestyler : on commence sans voiture. Skate : la deuxieme figure se fait avec la touche Y (et la touche de modificateur du jeu) ; tuto mis a jour. Voitures et Harley : retour aux sons d'origine du jeu (le pack est plus leger).",
-  "notes_en": "Train: in multiplayer, the train no longer starts backwards or slows down on its own; smoother movement. Ada (Brandenburg): her loco is placed correctly on the track at the depot and comes back after a server restart. Freestyler job: you start without a car. Skateboard: the second trick uses the Y key (with the game's modifier key); tutorial updated. Cars and Harley: back to the game's original sounds (lighter pack).",
+  "notes_fr": "Train : la loco a vapeur d'Ada (Steam47, avec son tender) arrive a Brandenburg. Quete du train : le wagon voyageurs s'attelle automatiquement a ta loco. Connexion : protection pendant l'arrivee sur le serveur. Serveur : le train consomme beaucoup moins quand les locos sont garees. Personnages : les fiches restees verrouillees se liberent apres quelques jours sans connexion. PNJ : les PNJ de Brandenburg et du gym ne restent plus bloques.",
+  "notes_en": "Train: Ada's steam loco (Steam47, with its tender) arrives in Brandenburg. Train quest: the passenger coach couples to your loco automatically. Connection: protection while you arrive on the server. Server: the train costs much less when locos are parked. Characters: profiles left locked are released after a few days without login. NPCs: Brandenburg and gym NPCs no longer get stuck.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.2",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c1e61ad5b91702e823e7ccc158688959",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.96.txt",
-  "manifest_md5": "65810e9b69e1075955682629a8f7ba0f",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.97.txt",
+  "manifest_md5": "e59b6b0c9932ef130776b922efc463d1",
   "patches": [
     {
       "from": "0.9.85",
@@ -298,9 +298,23 @@
         "GTAKStory/42/media/sound/gtak/moteurs/gtak_turbo_flutter_v4.ogg",
         "GTAKStory/42/media/sound/gtak/moteurs/gtak_turbo_spool.ogg"
       ]
+    },
+    {
+      "from": "0.9.96",
+      "to": "0.9.97",
+      "zip": "https://drive.usercontent.google.com/download?id=1R99ArndyfZ79vJBoqnwEYthkC5dU0WW3&export=download&confirm=t",
+      "md5": "21553c3b47f2f8b365a5509e3edf9c0b",
+      "size": 6516836,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.97",
+      "date": "2026-10-25",
+      "notes_fr": "Train : la loco a vapeur d'Ada (Steam47, avec son tender) arrive a Brandenburg.\nQuete du train : le wagon voyageurs s'attelle automatiquement a ta loco.\nConnexion : protection pendant l'arrivee sur le serveur.\nServeur : le train consomme beaucoup moins quand les locos sont garees.\nPersonnages : les fiches restees verrouillees se liberent apres quelques jours sans connexion.\nPNJ : les PNJ de Brandenburg et du gym ne restent plus bloques.",
+      "notes_en": "Train: Ada's steam loco (Steam47, with its tender) arrives in Brandenburg.\nTrain quest: the passenger coach couples to your loco automatically.\nConnection: protection while you arrive on the server.\nServer: the train costs much less when locos are parked.\nCharacters: profiles left locked are released after a few days without login.\nNPCs: Brandenburg and gym NPCs no longer get stuck."
+    },
     {
       "version": "0.9.96",
       "date": "2026-10-25",
@@ -354,12 +368,6 @@
       "date": "2026-10-24",
       "notes_fr": "Train : la quete du wagon est refaite.\nConduite : le bloc d'infos du HUD se deplace.\nLoco : sons d'interrupteurs pour les phares et le plafonnier.\nConducteurs de train : vrai metier, sans asthme ni surpoids.\nMenu : fonds d'ecran en 2K.",
       "notes_en": "Train: the boxcar quest is redone.\nDriving: the HUD info block can be moved.\nLocomotive: switch sounds for the headlights and cab light.\nTrain drivers: a real job, no more asthma or overweight.\nMenu: 2K backgrounds."
-    },
-    {
-      "version": "0.9.86",
-      "date": "2026-10-24",
-      "notes_fr": "Train : casier de la loco corrige.\nChien : morsures corrigees.\nWagons-citernes : on peut y prendre du diesel.\nTele : rediffusion des emissions.\nInstalleur et lanceur : plus aucun fichier efface, tout est mis de cote et remis en place si une installation ou une mise a jour est coupee.",
-      "notes_en": "Train: locomotive locker fixed.\nDog: bites fixed.\nTank cars: you can take diesel from them.\nTV: shows are rerun.\nInstaller and launcher: no file is ever deleted, everything is moved aside and put back if an install or update is interrupted."
     }
   ]
 }
