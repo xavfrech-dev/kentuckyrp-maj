@@ -1,36 +1,20 @@
 {
-  "version": "0.9.94",
+  "version": "0.9.95",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Train : marche arrière corrigée à la source (route du client toujours dans le même sens que le serveur).",
-  "notes_en": "Train: reversing fixed at the source (client route always in the same direction as the server).",
+  "notes_fr": "Train : la conductrice de Brandenburg (Ada) a sa propre loco et sa quête sur place (Delbert Purvis) ; deux conducteurs en même temps.",
+  "notes_en": "Train: the Brandenburg driver (Ada) has her own locomotive and her quest on site (Delbert Purvis); two drivers at the same time.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.2",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c1e61ad5b91702e823e7ccc158688959",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.94.txt",
-  "manifest_md5": "a03a6c8c1340909b5b3cb2245c0e0964",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.95.txt",
+  "manifest_md5": "436cf10a642846ba020a8ef4246b10b8",
   "patches": [
-    {
-      "from": "0.9.93",
-      "to": "0.9.94",
-      "zip": "https://drive.usercontent.google.com/download?id=1nGUpMakSLYMOhn-CAVpYlnNT-037Eo0r&export=download&confirm=t",
-      "md5": "8e34e36c39188ff8252dc373222ffa69",
-      "size": 11875,
-      "delete": []
-    },
-    {
-      "from": "0.9.84",
-      "to": "0.9.85",
-      "zip": "https://drive.usercontent.google.com/download?id=11AnPxL9LNA4S7LH0pvlqWSyHErPugUrt&export=download&confirm=t",
-      "md5": "fa5de3524363f0aeb7d76c9ad1c260dc",
-      "size": 1111750,
-      "delete": []
-    },
     {
       "from": "0.9.85",
       "to": "0.9.86",
@@ -105,9 +89,37 @@
       "md5": "6ab9628c0b52db49a73a9a523873b907",
       "size": 11236,
       "delete": []
+    },
+    {
+      "from": "0.9.93",
+      "to": "0.9.94",
+      "zip": "https://drive.usercontent.google.com/download?id=1nGUpMakSLYMOhn-CAVpYlnNT-037Eo0r&export=download&confirm=t",
+      "md5": "8e34e36c39188ff8252dc373222ffa69",
+      "size": 11875,
+      "delete": []
+    },
+    {
+      "from": "0.9.94",
+      "to": "0.9.95",
+      "zip": "https://drive.usercontent.google.com/download?id=1u9f1mvo3PY7JsOV06-lVztRwHvOqmRvL&export=download&confirm=t",
+      "md5": "5aed7f899d4f9316af5914eacfcfd2e7",
+      "size": 79358,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.95",
+      "date": "2026-10-24",
+      "notes_fr": "Train : la conductrice de Brandenburg (Ada) a sa propre loco et sa quête sur place (Delbert Purvis) ; deux conducteurs en même temps.",
+      "notes_en": "Train: the Brandenburg driver (Ada) has her own locomotive and her quest on site (Delbert Purvis); two drivers at the same time."
+    },
+    {
+      "version": "0.9.94",
+      "date": "2026-10-24",
+      "notes_fr": "Train : marche arrière corrigée à la source (route du client toujours dans le même sens que le serveur).",
+      "notes_en": "Train: reversing fixed at the source (client route always in the same direction as the server)."
+    },
     {
       "version": "0.9.92",
       "date": "2026-10-24",
@@ -155,18 +167,6 @@
       "date": "2026-10-24",
       "notes_fr": "Soins entre joueurs en multi.\nQuete du wagon corrigee.\nHUD visible en conduite.\nPop-up de direction et fleche du GPS.",
       "notes_en": "Healing between players in multiplayer.\nWagon quest fixed.\nHUD shown while driving.\nDirection pop-up and GPS arrow."
-    },
-    {
-      "version": "0.9.84",
-      "date": "2026-10-23",
-      "notes_fr": "Quetes : objectifs gardes et affiches de facon plus fiable (HUD, journal).\nTrain : passages a niveau, nouvelle livree de la loco, plafonnier et coffre de la cabine, GPS du conducteur avec l'itineraire et les arrets.\nMode streamer (telephone > Reglages, ou Mod Options) : coupe toutes les musiques sous droits.\nMenus du jeu dans le style Kentucky RP.\nVue 3D : recul maximal de la vue du dessus bien plus grand.\nMenu : fonds tires au hasard sans erreur, poker corrige.",
-      "notes_en": "Quests: objectives kept and shown more reliably (HUD, log).\nTrain: level crossings, new locomotive livery, cab ceiling light and trunk, driver GPS with route and stops.\nStreamer mode (phone > Settings, or Mod Options): mutes all copyrighted music.\nGame menus in the Kentucky RP style.\n3D view: much larger maximum zoom-out of the overhead view.\nMenu: random backgrounds without errors, poker fixes."
-    },
-    {
-      "version": "0.9.94",
-      "date": "2026-10-24",
-      "notes_fr": "Train : marche arrière corrigée à la source (route du client toujours dans le même sens que le serveur).",
-      "notes_en": "Train: reversing fixed at the source (client route always in the same direction as the server)."
     }
   ]
 }
