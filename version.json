@@ -1,19 +1,19 @@
 {
-  "version": "0.9.90",
+  "version": "0.9.91",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Performances : un ordonnanceur commun remplace une centaine de minuteries qui tournaient a chaque image (client et serveur), la liste des zombies est lue une seule fois par image, et les gestionnaires par zombie passent de 3 a 1 (reglage Scheduler pour revenir a l'ancien fonctionnement). Snap : les flammes comptent en jours reels en multi, comme le casino et les defis (series existantes conservees). Tele du telephone : XP comme une vraie tele par defaut ; debug du staff coupe par defaut.",
-  "notes_en": "Performance: a shared scheduler replaces about a hundred timers that ran every frame (client and server), the zombie list is read once per frame, and per-zombie handlers go from 3 to 1 (Scheduler setting to go back to the old behaviour). Snap: streaks count in real days in multiplayer, like the casino and challenges (existing streaks kept). Phone TV: same XP as a real TV by default; staff debug off by default.",
+  "notes_fr": "Menu principal : menu fixe a gauche, jukebox transparent, titres et boutons dans la police du logo (Anton), fonds 6 et 7 retouches. Spotify : bouton Aleatoire dans les 5 lecteurs (compagnon Spotify FM mis a jour). Train : GPS de la loco, wagon de Louisville, passages a niveau en 3D, retour en arriere du train corrige en multi, nouvelle livree Kentucky RP de la loco, XP du train (1 XP toutes les 200 cases, sans plafond). Quetes : panneau des quetes revu ; quetes de conduite et de zone verifiees par le serveur. Permis, casier et port d'arme : jours restants affiches.",
+  "notes_en": "Main menu: menu pinned to the left, transparent jukebox, titles and buttons in the logo font (Anton), backgrounds 6 and 7 touched up. Spotify: Shuffle button in the 5 players (Spotify FM companion updated). Train: loco GPS, Louisville wagon, 3D level crossings, train rollback fixed in multiplayer, new Kentucky RP loco livery, train XP (1 XP every 200 tiles, no cap). Quests: quest panel reworked; driving and area quests checked by the server. Licence, record and gun permit: days left shown.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.0",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.90.txt",
-  "manifest_md5": "0f5b9a2f58838ff5f706916f42155950",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.91.txt",
+  "manifest_md5": "c182d6a80717049571300875f67def63",
   "patches": [
     {
       "from": "0.9.84",
@@ -62,9 +62,34 @@
       "md5": "c0427e5dc4605b5c4742df30faf20f84",
       "size": 1805665,
       "delete": []
+    },
+    {
+      "from": "0.9.90",
+      "to": "0.9.91",
+      "zip": "https://drive.usercontent.google.com/download?id=1ixIX4BP5JBKPhWOo9CgVM4adZF1DmHDx&export=download&confirm=t",
+      "md5": "98e4daa0f4c7a727499e18d6493624d6",
+      "size": 28522340,
+      "delete": [
+        "SmokeWeedEveryday/42/media/texturepacks/GFtextures.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaBench.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaCrops.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaField.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaMix2x.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaPots.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaRack.pack",
+        "SmokeWeedEveryday/42/media/texturepacks/PikaRackSlots.pack",
+        "TakeDrugsEveryday/42/media/texturepacks/TDECrops.pack",
+        "TakeDrugsEveryday/42/media/texturepacks/TDELab.pack"
+      ]
     }
   ],
   "history": [
+    {
+      "version": "0.9.91",
+      "date": "2026-10-24",
+      "notes_fr": "Menu principal : menu fixe a gauche, jukebox transparent, titres et boutons dans la police du logo (Anton), fonds 6 et 7 retouches.\nSpotify : bouton Aleatoire dans les 5 lecteurs (compagnon Spotify FM mis a jour).\nTrain : GPS de la loco, wagon de Louisville, passages a niveau en 3D, retour en arriere du train corrige en multi, nouvelle livree Kentucky RP de la loco, XP du train (1 XP toutes les 200 cases, sans plafond).\nQuetes : panneau des quetes revu ; quetes de conduite et de zone verifiees par le serveur. Permis, casier et port d'arme : jours restants affiches.",
+      "notes_en": "Main menu: menu pinned to the left, transparent jukebox, titles and buttons in the logo font (Anton), backgrounds 6 and 7 touched up.\nSpotify: Shuffle button in the 5 players (Spotify FM companion updated).\nTrain: loco GPS, Louisville wagon, 3D level crossings, train rollback fixed in multiplayer, new Kentucky RP loco livery, train XP (1 XP every 200 tiles, no cap).\nQuests: quest panel reworked; driving and area quests checked by the server. Licence, record and gun permit: days left shown."
+    },
     {
       "version": "0.9.90",
       "date": "2026-10-24",
@@ -118,18 +143,6 @@
       "date": "2026-10-24",
       "notes_fr": "Nouveaux mods : avions Wingsmith et LV-93, animaux Ros's Radical, et 9 mods pour la vue 3D.\nVehicules : tutos a la premiere conduite, conduite plus fun facon GTA, vrais bruits de moteur (~486 vehicules).\nPersonnages : metier freestyler, 14 nouveaux persos, un perso ne peut etre joue que par une personne.\nFreestyle en skate et BMX. Voix anglaises, Evelyn et Dottie retrouvent leur voix.\nDeux trains en meme temps, quetes de conducteur de train, passages a niveau.",
       "notes_en": "New mods: Wingsmith and LV-93 planes, Ros's Radical animals, and 9 mods for the 3D view.\nVehicles: first-drive tutorials, more fun GTA-style driving, real engine sounds (~486 vehicles).\nCharacters: freestyler job, 14 new characters, one character can only be played by one person.\nSkate and BMX tricks. English voices, Evelyn and Dottie got their voices back.\nTwo trains at once, train driver quests, level crossings."
-    },
-    {
-      "version": "0.9.81",
-      "date": "2026-10-24",
-      "notes_fr": "Un seul mod a cocher : « Kentucky RP » contient maintenant les planques, les labos, la revente et la liste de tous les mods.\nRien n'est perdu dans ta partie.\nItem Rarity UI revient : noms d'objets colores selon leur rarete, objets Kentucky RP compris.",
-      "notes_en": "Only one mod to tick: \"Kentucky RP\" now holds the stashes, labs, reselling and the list of all mods.\nNothing is lost in your save.\nItem Rarity UI is back: item names coloured by rarity, Kentucky RP items included."
-    },
-    {
-      "version": "0.9.80",
-      "date": "2026-10-24",
-      "notes_fr": "Nouveaux mods : helicoptere UH-1B Huey, Lamborghini Countach 1978, skateboards et velos.\nChez Big Ray : skate et velos (abordables), Countach (tres cheres), Huey (le plus cher du jeu).\nPZ Pulse retire.",
-      "notes_en": "New mods: UH-1B Huey helicopter, 1978 Lamborghini Countach, skateboards and bikes.\nAt Big Ray's: skate and bikes (affordable), Countach (very expensive), Huey (the most expensive item in the game).\nPZ Pulse removed."
     }
   ]
 }
