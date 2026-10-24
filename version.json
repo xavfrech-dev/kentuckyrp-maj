@@ -1,19 +1,19 @@
 {
-  "version": "0.9.87",
+  "version": "0.9.88",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Train : la quete du wagon est refaite. Conduite : le bloc d'infos du HUD se deplace. Loco : sons d'interrupteurs pour les phares et le plafonnier. Conducteurs de train : vrai metier, sans asthme ni surpoids. Menu : fonds d'ecran en 2K.",
-  "notes_en": "Train: the boxcar quest is redone. Driving: the HUD info block can be moved. Locomotive: switch sounds for the headlights and cab light. Train drivers: a real job, no more asthma or overweight. Menu: 2K backgrounds.",
+  "notes_fr": "Wagon : la voie de garage est est libre, plus de mur invisible. Tele : l'interrupteur bascule en un seul clic, le guide du telephone est corrige. Loco : corrections du diesel. Traductions FR et EN mises a jour.",
+  "notes_en": "Boxcar: the east siding is clear, no more invisible wall. TV: the switch toggles in a single click, the phone guide is fixed. Locomotive: diesel fixes. FR and EN translations updated.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.0",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.87.txt",
-  "manifest_md5": "a9413e6ea35c7a52b648c2dd0d028eec",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.88.txt",
+  "manifest_md5": "f01dbbd8d3e6f0f10da0efb0bb23f7b3",
   "patches": [
     {
       "from": "0.9.84",
@@ -38,9 +38,23 @@
       "md5": "43bee60984530026f0c818c0c11182b0",
       "size": 35808858,
       "delete": []
+    },
+    {
+      "from": "0.9.87",
+      "to": "0.9.88",
+      "zip": "https://drive.usercontent.google.com/download?id=1GnVho85tKr_nKb-8NfAOKcGS6yzt9ntg&export=download&confirm=t",
+      "md5": "d83bd63da8efeecec66fcd94702a9995",
+      "size": 907190,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.88",
+      "date": "2026-10-24",
+      "notes_fr": "Wagon : la voie de garage est est libre, plus de mur invisible.\nTele : l'interrupteur bascule en un seul clic, le guide du telephone est corrige.\nLoco : corrections du diesel.\nTraductions FR et EN mises a jour.",
+      "notes_en": "Boxcar: the east siding is clear, no more invisible wall.\nTV: the switch toggles in a single click, the phone guide is fixed.\nLocomotive: diesel fixes.\nFR and EN translations updated."
+    },
     {
       "version": "0.9.87",
       "date": "2026-10-24",
@@ -94,12 +108,6 @@
       "date": "2026-10-23",
       "notes_fr": "Telephone : la tele avec de vraies videos.\nBateaux : GPS marin.\nTrain : GPS du train, wagon voyageurs avec interieur 3D, cabine 3D detaillee, nouvelle livree, fumee reglable.\nPassages a niveau realistes. Menus aux couleurs Kentucky RP. Performances ameliorees.",
       "notes_en": "Phone: TV with real videos.\nBoats: marine GPS.\nTrain: train GPS, passenger coach with 3D interior, detailed 3D cab, new livery, adjustable smoke.\nRealistic level crossings. Kentucky RP coloured menus. Better performance."
-    },
-    {
-      "version": "0.9.78",
-      "date": "2026-10-23",
-      "notes_fr": "Quetes : journal vide corrige, paies reequilibrees.\nMetiers : actes payes apres coup (ambulancier, taxi, mecano, DJ...), services PNJ visibles.\nMaisons : agrandir son terrain, construire sur un terrain nu.\nCarte du monde : 156 lieux avec icones.",
-      "notes_en": "Quests: empty log fixed, rebalanced pay.\nJobs: paid after the actual work (paramedic, taxi, mechanic, DJ...), visible NPC services.\nHouses: enlarge your plot, build on bare land.\nWorld map: 156 places with icons."
     }
   ]
 }
