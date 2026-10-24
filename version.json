@@ -1,20 +1,28 @@
 {
-  "version": "0.9.93",
+  "version": "0.9.94",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Train : la marche arriere ne fait plus ramer (route du client remise dans le bon sens).",
-  "notes_en": "Train: reversing no longer lags (client route put back the right way).",
+  "notes_fr": "Train : marche arrière corrigée à la source (route du client toujours dans le même sens que le serveur).",
+  "notes_en": "Train: reversing fixed at the source (client route always in the same direction as the server).",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.1",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "1e8bd30a6fcd6ce7d46050cd0eda9bdc",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.93.txt",
-  "manifest_md5": "95ede6d91651bf16500cbda94b0174de",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.94.txt",
+  "manifest_md5": "a03a6c8c1340909b5b3cb2245c0e0964",
   "patches": [
+    {
+      "from": "0.9.93",
+      "to": "0.9.94",
+      "zip": "https://drive.usercontent.google.com/download?id=1nGUpMakSLYMOhn-CAVpYlnNT-037Eo0r&export=download&confirm=t",
+      "md5": "8e34e36c39188ff8252dc373222ffa69",
+      "size": 11875,
+      "delete": []
+    },
     {
       "from": "0.9.84",
       "to": "0.9.85",
@@ -101,12 +109,6 @@
   ],
   "history": [
     {
-      "version": "0.9.93",
-      "date": "2026-10-24",
-      "notes_fr": "Train : la marche arriere ne fait plus ramer (route du client remise dans le bon sens).",
-      "notes_en": "Train: reversing no longer lags (client route put back the right way)."
-    },
-    {
       "version": "0.9.92",
       "date": "2026-10-24",
       "notes_fr": "Quetes : la barre des quetes est cliquable et passe devant la fenetre de butin.\nXP : infobulle d'XP et \"+N\" au-dessus du perso.\nTrain : mouvement plus fluide en multi, deraillement, aiguilles et voies interdites gardees, wagons de decor retires, journal d'XP (1 XP / 200 cases, sans plafond).\nTelephone : bouton taxi sur la carte. Ray : livraison de skates et de velos.\nPassages a niveau : nouvelles textures ; en 3D, masquage et bras corriges. Bain en 3D (eau et mousse).\nLanceur 2.1.1 : met aussi a jour Spotify FM avec les correctifs.",
@@ -159,6 +161,12 @@
       "date": "2026-10-23",
       "notes_fr": "Quetes : objectifs gardes et affiches de facon plus fiable (HUD, journal).\nTrain : passages a niveau, nouvelle livree de la loco, plafonnier et coffre de la cabine, GPS du conducteur avec l'itineraire et les arrets.\nMode streamer (telephone > Reglages, ou Mod Options) : coupe toutes les musiques sous droits.\nMenus du jeu dans le style Kentucky RP.\nVue 3D : recul maximal de la vue du dessus bien plus grand.\nMenu : fonds tires au hasard sans erreur, poker corrige.",
       "notes_en": "Quests: objectives kept and shown more reliably (HUD, log).\nTrain: level crossings, new locomotive livery, cab ceiling light and trunk, driver GPS with route and stops.\nStreamer mode (phone > Settings, or Mod Options): mutes all copyrighted music.\nGame menus in the Kentucky RP style.\n3D view: much larger maximum zoom-out of the overhead view.\nMenu: random backgrounds without errors, poker fixes."
+    },
+    {
+      "version": "0.9.94",
+      "date": "2026-10-24",
+      "notes_fr": "Train : marche arrière corrigée à la source (route du client toujours dans le même sens que le serveur).",
+      "notes_en": "Train: reversing fixed at the source (client route always in the same direction as the server)."
     }
   ]
 }
