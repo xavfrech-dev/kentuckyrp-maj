@@ -1,19 +1,19 @@
 {
-  "version": "0.9.91",
+  "version": "0.9.92",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Menu principal : menu fixe a gauche, jukebox transparent, titres et boutons dans la police du logo (Anton), fonds 6 et 7 retouches. Spotify : bouton Aleatoire dans les 5 lecteurs (compagnon Spotify FM mis a jour). Train : GPS de la loco, wagon de Louisville, passages a niveau en 3D, retour en arriere du train corrige en multi, nouvelle livree Kentucky RP de la loco, XP du train (1 XP toutes les 200 cases, sans plafond). Quetes : panneau des quetes revu ; quetes de conduite et de zone verifiees par le serveur. Permis, casier et port d'arme : jours restants affiches.",
-  "notes_en": "Main menu: menu pinned to the left, transparent jukebox, titles and buttons in the logo font (Anton), backgrounds 6 and 7 touched up. Spotify: Shuffle button in the 5 players (Spotify FM companion updated). Train: loco GPS, Louisville wagon, 3D level crossings, train rollback fixed in multiplayer, new Kentucky RP loco livery, train XP (1 XP every 200 tiles, no cap). Quests: quest panel reworked; driving and area quests checked by the server. Licence, record and gun permit: days left shown.",
+  "notes_fr": "Quetes : la barre des quetes est cliquable et passe devant la fenetre de butin. XP : infobulle d'XP et \"+N\" au-dessus du perso. Train : mouvement plus fluide en multi, deraillement, aiguilles et voies interdites gardees, wagons de decor retires, journal d'XP (1 XP / 200 cases, sans plafond). Telephone : bouton taxi sur la carte. Ray : livraison de skates et de velos. Passages a niveau : nouvelles textures ; en 3D, masquage et bras corriges. Bain en 3D (eau et mousse). Lanceur 2.1.1 : met aussi a jour Spotify FM avec les correctifs.",
+  "notes_en": "Quests: the quest bar is clickable and shows above the loot window. XP: XP tooltip and \"+N\" above your character. Train: smoother movement in multiplayer, derailment, guarded switches and forbidden tracks, decor wagons removed, XP log (1 XP / 200 tiles, no cap). Phone: taxi button on the map. Ray: skateboard and bike deliveries. Level crossings: new textures; in 3D, culling and arms fixed. 3D bath (water and foam). Launcher 2.1.1: also updates Spotify FM with patches.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
-  "launcher_version": "2.1.0",
+  "launcher_version": "2.1.1",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
-  "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.91.txt",
-  "manifest_md5": "c182d6a80717049571300875f67def63",
+  "launcher_md5": "1e8bd30a6fcd6ce7d46050cd0eda9bdc",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.92.txt",
+  "manifest_md5": "f7e834bddaf6ffaccf8ec76254ce0ed3",
   "patches": [
     {
       "from": "0.9.84",
@@ -81,9 +81,23 @@
         "TakeDrugsEveryday/42/media/texturepacks/TDECrops.pack",
         "TakeDrugsEveryday/42/media/texturepacks/TDELab.pack"
       ]
+    },
+    {
+      "from": "0.9.91",
+      "to": "0.9.92",
+      "zip": "https://drive.usercontent.google.com/download?id=1G3atKh-QfBJfZoSZ_zUgHgo9RKvXLZIS&export=download&confirm=t",
+      "md5": "7c13809ad734de71848db3d245adfd79",
+      "size": 1531643,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.92",
+      "date": "2026-10-24",
+      "notes_fr": "Quetes : la barre des quetes est cliquable et passe devant la fenetre de butin.\nXP : infobulle d'XP et \"+N\" au-dessus du perso.\nTrain : mouvement plus fluide en multi, deraillement, aiguilles et voies interdites gardees, wagons de decor retires, journal d'XP (1 XP / 200 cases, sans plafond).\nTelephone : bouton taxi sur la carte. Ray : livraison de skates et de velos.\nPassages a niveau : nouvelles textures ; en 3D, masquage et bras corriges. Bain en 3D (eau et mousse).\nLanceur 2.1.1 : met aussi a jour Spotify FM avec les correctifs.",
+      "notes_en": "Quests: the quest bar is clickable and shows above the loot window.\nXP: XP tooltip and \"+N\" above your character.\nTrain: smoother movement in multiplayer, derailment, guarded switches and forbidden tracks, decor wagons removed, XP log (1 XP / 200 tiles, no cap).\nPhone: taxi button on the map. Ray: skateboard and bike deliveries.\nLevel crossings: new textures; in 3D, culling and arms fixed. 3D bath (water and foam).\nLauncher 2.1.1: also updates Spotify FM with patches."
+    },
     {
       "version": "0.9.91",
       "date": "2026-10-24",
@@ -137,12 +151,6 @@
       "date": "2026-10-23",
       "notes_fr": "Plus d'erreurs en boucle des lampes du wagon en vue 3D.\nServeur : avions et vehicules de service relus correctement, alertes du staff envoyees une fois le reseau pret.\nMenu : fonds 8 et 9 retires, le fond change toutes les 40 a 45 secondes.\nIcone des des (Neat Crafting).",
       "notes_en": "No more looping errors from the 3D coach lamps.\nServer: planes and service vehicles read correctly, staff alerts wait for the network.\nMenu: backgrounds 8 and 9 removed, background changes every 40 to 45 seconds.\nDice icon (Neat Crafting)."
-    },
-    {
-      "version": "0.9.82",
-      "date": "2026-10-24",
-      "notes_fr": "Nouveaux mods : avions Wingsmith et LV-93, animaux Ros's Radical, et 9 mods pour la vue 3D.\nVehicules : tutos a la premiere conduite, conduite plus fun facon GTA, vrais bruits de moteur (~486 vehicules).\nPersonnages : metier freestyler, 14 nouveaux persos, un perso ne peut etre joue que par une personne.\nFreestyle en skate et BMX. Voix anglaises, Evelyn et Dottie retrouvent leur voix.\nDeux trains en meme temps, quetes de conducteur de train, passages a niveau.",
-      "notes_en": "New mods: Wingsmith and LV-93 planes, Ros's Radical animals, and 9 mods for the 3D view.\nVehicles: first-drive tutorials, more fun GTA-style driving, real engine sounds (~486 vehicles).\nCharacters: freestyler job, 14 new characters, one character can only be played by one person.\nSkate and BMX tricks. English voices, Evelyn and Dottie got their voices back.\nTwo trains at once, train driver quests, level crossings."
     }
   ]
 }
