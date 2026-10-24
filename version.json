@@ -1,19 +1,19 @@
 {
-  "version": "0.9.92",
+  "version": "0.9.93",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Quetes : la barre des quetes est cliquable et passe devant la fenetre de butin. XP : infobulle d'XP et \"+N\" au-dessus du perso. Train : mouvement plus fluide en multi, deraillement, aiguilles et voies interdites gardees, wagons de decor retires, journal d'XP (1 XP / 200 cases, sans plafond). Telephone : bouton taxi sur la carte. Ray : livraison de skates et de velos. Passages a niveau : nouvelles textures ; en 3D, masquage et bras corriges. Bain en 3D (eau et mousse). Lanceur 2.1.1 : met aussi a jour Spotify FM avec les correctifs.",
-  "notes_en": "Quests: the quest bar is clickable and shows above the loot window. XP: XP tooltip and \"+N\" above your character. Train: smoother movement in multiplayer, derailment, guarded switches and forbidden tracks, decor wagons removed, XP log (1 XP / 200 tiles, no cap). Phone: taxi button on the map. Ray: skateboard and bike deliveries. Level crossings: new textures; in 3D, culling and arms fixed. 3D bath (water and foam). Launcher 2.1.1: also updates Spotify FM with patches.",
+  "notes_fr": "Train : la marche arriere ne fait plus ramer (route du client remise dans le bon sens).",
+  "notes_en": "Train: reversing no longer lags (client route put back the right way).",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.1",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "1e8bd30a6fcd6ce7d46050cd0eda9bdc",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.92.txt",
-  "manifest_md5": "f7e834bddaf6ffaccf8ec76254ce0ed3",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.93.txt",
+  "manifest_md5": "95ede6d91651bf16500cbda94b0174de",
   "patches": [
     {
       "from": "0.9.84",
@@ -89,9 +89,23 @@
       "md5": "7c13809ad734de71848db3d245adfd79",
       "size": 1531643,
       "delete": []
+    },
+    {
+      "from": "0.9.92",
+      "to": "0.9.93",
+      "zip": "https://drive.usercontent.google.com/download?id=1GfhFfRDGOEX9Drqtzk1eSe_720lpY9Tq&export=download&confirm=t",
+      "md5": "6ab9628c0b52db49a73a9a523873b907",
+      "size": 11236,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.93",
+      "date": "2026-10-24",
+      "notes_fr": "Train : la marche arriere ne fait plus ramer (route du client remise dans le bon sens).",
+      "notes_en": "Train: reversing no longer lags (client route put back the right way)."
+    },
     {
       "version": "0.9.92",
       "date": "2026-10-24",
@@ -145,12 +159,6 @@
       "date": "2026-10-23",
       "notes_fr": "Quetes : objectifs gardes et affiches de facon plus fiable (HUD, journal).\nTrain : passages a niveau, nouvelle livree de la loco, plafonnier et coffre de la cabine, GPS du conducteur avec l'itineraire et les arrets.\nMode streamer (telephone > Reglages, ou Mod Options) : coupe toutes les musiques sous droits.\nMenus du jeu dans le style Kentucky RP.\nVue 3D : recul maximal de la vue du dessus bien plus grand.\nMenu : fonds tires au hasard sans erreur, poker corrige.",
       "notes_en": "Quests: objectives kept and shown more reliably (HUD, log).\nTrain: level crossings, new locomotive livery, cab ceiling light and trunk, driver GPS with route and stops.\nStreamer mode (phone > Settings, or Mod Options): mutes all copyrighted music.\nGame menus in the Kentucky RP style.\n3D view: much larger maximum zoom-out of the overhead view.\nMenu: random backgrounds without errors, poker fixes."
-    },
-    {
-      "version": "0.9.83",
-      "date": "2026-10-23",
-      "notes_fr": "Plus d'erreurs en boucle des lampes du wagon en vue 3D.\nServeur : avions et vehicules de service relus correctement, alertes du staff envoyees une fois le reseau pret.\nMenu : fonds 8 et 9 retires, le fond change toutes les 40 a 45 secondes.\nIcone des des (Neat Crafting).",
-      "notes_en": "No more looping errors from the 3D coach lamps.\nServer: planes and service vehicles read correctly, staff alerts wait for the network.\nMenu: backgrounds 8 and 9 removed, background changes every 40 to 45 seconds.\nDice icon (Neat Crafting)."
     }
   ]
 }
