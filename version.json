@@ -1,7 +1,97 @@
 {
-  "version": "0.9.83",
-  "zip": "https://www.swisstransfer.com/dl/01a169c0-129f-73b1-9137-528374ab9ced",
-  "md5": "73084fd2fff494eb951f9d1484d5d9e5",
-  "notes_fr": "Correctif des erreurs, poker (abattage all-in, recave, jetons, bouton dealer, trefle et pique), fonds du menu.",
-  "notes_en": "Error fixes, poker (all-in showdown, rebuy, chips, dealer button, clubs and spades), menu backgrounds."
+  "version": "0.9.86",
+  "date": "2026-10-24",
+  "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
+  "md5": "516b07cfe442b01206e037bf60cdffd3",
+  "size": 899149341,
+  "notes_fr": "Train : casier de la loco corrige. Chien : morsures corrigees. Wagons-citernes : on peut y prendre du diesel. Tele : rediffusion des emissions. Installeur et lanceur : plus aucun fichier efface, tout est mis de cote et remis en place si une installation ou une mise a jour est coupee.",
+  "notes_en": "Train: locomotive locker fixed. Dog: bites fixed. Tank cars: you can take diesel from them. TV: shows are rerun. Installer and launcher: no file is ever deleted, everything is moved aside and put back if an install or update is interrupted.",
+  "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
+  "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
+  "installer_size": 822100647,
+  "launcher_version": "2.1.0",
+  "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
+  "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.86.txt",
+  "manifest_md5": "25f79247d33d965042d64fe8edbe29ce",
+  "patches": [
+    {
+      "from": "0.9.84",
+      "to": "0.9.85",
+      "zip": "https://drive.usercontent.google.com/download?id=11AnPxL9LNA4S7LH0pvlqWSyHErPugUrt&export=download&confirm=t",
+      "md5": "fa5de3524363f0aeb7d76c9ad1c260dc",
+      "size": 1111750,
+      "delete": []
+    },
+    {
+      "from": "0.9.85",
+      "to": "0.9.86",
+      "zip": "https://drive.usercontent.google.com/download?id=1xvOi-GTCOeTevui22etMRwtP5kZbqknT&export=download&confirm=t",
+      "md5": "d8affed8b87bc361051c20394ccd82f0",
+      "size": 56853,
+      "delete": []
+    }
+  ],
+  "history": [
+    {
+      "version": "0.9.86",
+      "date": "2026-10-24",
+      "notes_fr": "Train : casier de la loco corrige.\nChien : morsures corrigees.\nWagons-citernes : on peut y prendre du diesel.\nTele : rediffusion des emissions.\nInstalleur et lanceur : plus aucun fichier efface, tout est mis de cote et remis en place si une installation ou une mise a jour est coupee.",
+      "notes_en": "Train: locomotive locker fixed.\nDog: bites fixed.\nTank cars: you can take diesel from them.\nTV: shows are rerun.\nInstaller and launcher: no file is ever deleted, everything is moved aside and put back if an install or update is interrupted."
+    },
+    {
+      "version": "0.9.85",
+      "date": "2026-10-24",
+      "notes_fr": "Soins entre joueurs en multi.\nQuete du wagon corrigee.\nHUD visible en conduite.\nPop-up de direction et fleche du GPS.",
+      "notes_en": "Healing between players in multiplayer.\nWagon quest fixed.\nHUD shown while driving.\nDirection pop-up and GPS arrow."
+    },
+    {
+      "version": "0.9.84",
+      "date": "2026-10-23",
+      "notes_fr": "Quetes : objectifs gardes et affiches de facon plus fiable (HUD, journal).\nTrain : passages a niveau, nouvelle livree de la loco, plafonnier et coffre de la cabine, GPS du conducteur avec l'itineraire et les arrets.\nMode streamer (telephone > Reglages, ou Mod Options) : coupe toutes les musiques sous droits.\nMenus du jeu dans le style Kentucky RP.\nVue 3D : recul maximal de la vue du dessus bien plus grand.\nMenu : fonds tires au hasard sans erreur, poker corrige.",
+      "notes_en": "Quests: objectives kept and shown more reliably (HUD, log).\nTrain: level crossings, new locomotive livery, cab ceiling light and trunk, driver GPS with route and stops.\nStreamer mode (phone > Settings, or Mod Options): mutes all copyrighted music.\nGame menus in the Kentucky RP style.\n3D view: much larger maximum zoom-out of the overhead view.\nMenu: random backgrounds without errors, poker fixes."
+    },
+    {
+      "version": "0.9.83",
+      "date": "2026-10-23",
+      "notes_fr": "Plus d'erreurs en boucle des lampes du wagon en vue 3D.\nServeur : avions et vehicules de service relus correctement, alertes du staff envoyees une fois le reseau pret.\nMenu : fonds 8 et 9 retires, le fond change toutes les 40 a 45 secondes.\nIcone des des (Neat Crafting).",
+      "notes_en": "No more looping errors from the 3D coach lamps.\nServer: planes and service vehicles read correctly, staff alerts wait for the network.\nMenu: backgrounds 8 and 9 removed, background changes every 40 to 45 seconds.\nDice icon (Neat Crafting)."
+    },
+    {
+      "version": "0.9.82",
+      "date": "2026-10-24",
+      "notes_fr": "Nouveaux mods : avions Wingsmith et LV-93, animaux Ros's Radical, et 9 mods pour la vue 3D.\nVehicules : tutos a la premiere conduite, conduite plus fun facon GTA, vrais bruits de moteur (~486 vehicules).\nPersonnages : metier freestyler, 14 nouveaux persos, un perso ne peut etre joue que par une personne.\nFreestyle en skate et BMX. Voix anglaises, Evelyn et Dottie retrouvent leur voix.\nDeux trains en meme temps, quetes de conducteur de train, passages a niveau.",
+      "notes_en": "New mods: Wingsmith and LV-93 planes, Ros's Radical animals, and 9 mods for the 3D view.\nVehicles: first-drive tutorials, more fun GTA-style driving, real engine sounds (~486 vehicles).\nCharacters: freestyler job, 14 new characters, one character can only be played by one person.\nSkate and BMX tricks. English voices, Evelyn and Dottie got their voices back.\nTwo trains at once, train driver quests, level crossings."
+    },
+    {
+      "version": "0.9.81",
+      "date": "2026-10-24",
+      "notes_fr": "Un seul mod a cocher : « Kentucky RP » contient maintenant les planques, les labos, la revente et la liste de tous les mods.\nRien n'est perdu dans ta partie.\nItem Rarity UI revient : noms d'objets colores selon leur rarete, objets Kentucky RP compris.",
+      "notes_en": "Only one mod to tick: \"Kentucky RP\" now holds the stashes, labs, reselling and the list of all mods.\nNothing is lost in your save.\nItem Rarity UI is back: item names coloured by rarity, Kentucky RP items included."
+    },
+    {
+      "version": "0.9.80",
+      "date": "2026-10-24",
+      "notes_fr": "Nouveaux mods : helicoptere UH-1B Huey, Lamborghini Countach 1978, skateboards et velos.\nChez Big Ray : skate et velos (abordables), Countach (tres cheres), Huey (le plus cher du jeu).\nPZ Pulse retire.",
+      "notes_en": "New mods: UH-1B Huey helicopter, 1978 Lamborghini Countach, skateboards and bikes.\nAt Big Ray's: skate and bikes (affordable), Countach (very expensive), Huey (the most expensive item in the game).\nPZ Pulse removed."
+    },
+    {
+      "version": "0.9.79",
+      "date": "2026-10-23",
+      "notes_fr": "Telephone : la tele avec de vraies videos.\nBateaux : GPS marin.\nTrain : GPS du train, wagon voyageurs avec interieur 3D, cabine 3D detaillee, nouvelle livree, fumee reglable.\nPassages a niveau realistes. Menus aux couleurs Kentucky RP. Performances ameliorees.",
+      "notes_en": "Phone: TV with real videos.\nBoats: marine GPS.\nTrain: train GPS, passenger coach with 3D interior, detailed 3D cab, new livery, adjustable smoke.\nRealistic level crossings. Kentucky RP coloured menus. Better performance."
+    },
+    {
+      "version": "0.9.78",
+      "date": "2026-10-23",
+      "notes_fr": "Quetes : journal vide corrige, paies reequilibrees.\nMetiers : actes payes apres coup (ambulancier, taxi, mecano, DJ...), services PNJ visibles.\nMaisons : agrandir son terrain, construire sur un terrain nu.\nCarte du monde : 156 lieux avec icones.",
+      "notes_en": "Quests: empty log fixed, rebalanced pay.\nJobs: paid after the actual work (paramedic, taxi, mechanic, DJ...), visible NPC services.\nHouses: enlarge your plot, build on bare land.\nWorld map: 156 places with icons."
+    },
+    {
+      "version": "0.9.77",
+      "date": "2026-10-23",
+      "notes_fr": "Journal de quetes vide sur le serveur corrige.\nTrain : plus de missions vers des voies en impasse, casier de la cabine corrige.",
+      "notes_en": "Empty quest log on the server fixed.\nTrain: no more missions to dead-end tracks, cab locker fixed."
+    }
+  ]
 }
