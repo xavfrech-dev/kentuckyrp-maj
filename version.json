@@ -1,19 +1,19 @@
 {
-  "version": "0.9.86",
+  "version": "0.9.87",
   "date": "2026-10-24",
   "zip": "https://drive.usercontent.google.com/download?id=1QmVJt2Bf--5MH_Nj01-1RMomXtVfhMSd&export=download&confirm=t",
   "md5": "516b07cfe442b01206e037bf60cdffd3",
   "size": 899149341,
-  "notes_fr": "Train : casier de la loco corrige. Chien : morsures corrigees. Wagons-citernes : on peut y prendre du diesel. Tele : rediffusion des emissions. Installeur et lanceur : plus aucun fichier efface, tout est mis de cote et remis en place si une installation ou une mise a jour est coupee.",
-  "notes_en": "Train: locomotive locker fixed. Dog: bites fixed. Tank cars: you can take diesel from them. TV: shows are rerun. Installer and launcher: no file is ever deleted, everything is moved aside and put back if an install or update is interrupted.",
+  "notes_fr": "Train : la quete du wagon est refaite. Conduite : le bloc d'infos du HUD se deplace. Loco : sons d'interrupteurs pour les phares et le plafonnier. Conducteurs de train : vrai metier, sans asthme ni surpoids. Menu : fonds d'ecran en 2K.",
+  "notes_en": "Train: the boxcar quest is redone. Driving: the HUD info block can be moved. Locomotive: switch sounds for the headlights and cab light. Train drivers: a real job, no more asthma or overweight. Menu: 2K backgrounds.",
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
   "launcher_version": "2.1.0",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
   "launcher_md5": "c430bc216322e8f9e13f5c4cb8787cca",
-  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.86.txt",
-  "manifest_md5": "25f79247d33d965042d64fe8edbe29ce",
+  "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.87.txt",
+  "manifest_md5": "a9413e6ea35c7a52b648c2dd0d028eec",
   "patches": [
     {
       "from": "0.9.84",
@@ -30,9 +30,23 @@
       "md5": "d8affed8b87bc361051c20394ccd82f0",
       "size": 56853,
       "delete": []
+    },
+    {
+      "from": "0.9.86",
+      "to": "0.9.87",
+      "zip": "https://drive.usercontent.google.com/download?id=1-7l1jfx8-mnD3EpL7rA3brxoXV2fxBr1&export=download&confirm=t",
+      "md5": "43bee60984530026f0c818c0c11182b0",
+      "size": 35808858,
+      "delete": []
     }
   ],
   "history": [
+    {
+      "version": "0.9.87",
+      "date": "2026-10-24",
+      "notes_fr": "Train : la quete du wagon est refaite.\nConduite : le bloc d'infos du HUD se deplace.\nLoco : sons d'interrupteurs pour les phares et le plafonnier.\nConducteurs de train : vrai metier, sans asthme ni surpoids.\nMenu : fonds d'ecran en 2K.",
+      "notes_en": "Train: the boxcar quest is redone.\nDriving: the HUD info block can be moved.\nLocomotive: switch sounds for the headlights and cab light.\nTrain drivers: a real job, no more asthma or overweight.\nMenu: 2K backgrounds."
+    },
     {
       "version": "0.9.86",
       "date": "2026-10-24",
@@ -86,12 +100,6 @@
       "date": "2026-10-23",
       "notes_fr": "Quetes : journal vide corrige, paies reequilibrees.\nMetiers : actes payes apres coup (ambulancier, taxi, mecano, DJ...), services PNJ visibles.\nMaisons : agrandir son terrain, construire sur un terrain nu.\nCarte du monde : 156 lieux avec icones.",
       "notes_en": "Quests: empty log fixed, rebalanced pay.\nJobs: paid after the actual work (paramedic, taxi, mechanic, DJ...), visible NPC services.\nHouses: enlarge your plot, build on bare land.\nWorld map: 156 places with icons."
-    },
-    {
-      "version": "0.9.77",
-      "date": "2026-10-23",
-      "notes_fr": "Journal de quetes vide sur le serveur corrige.\nTrain : plus de missions vers des voies en impasse, casier de la cabine corrige.",
-      "notes_en": "Empty quest log on the server fixed.\nTrain: no more missions to dead-end tracks, cab locker fixed."
     }
   ]
 }
