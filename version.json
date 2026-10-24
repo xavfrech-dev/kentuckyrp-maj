@@ -9,9 +9,9 @@
   "installer": "https://drive.usercontent.google.com/download?id=1LmYZholkujWV4LpaHnaWPwFe7r4tIiY1&export=download&confirm=t",
   "installer_md5": "e5f7e78f22d62c97f5181f03cd0ee41f",
   "installer_size": 822100647,
-  "launcher_version": "2.1.1",
+  "launcher_version": "2.1.2",
   "launcher_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/lanceur/KentuckyRP.exe",
-  "launcher_md5": "1e8bd30a6fcd6ce7d46050cd0eda9bdc",
+  "launcher_md5": "c1e61ad5b91702e823e7ccc158688959",
   "manifest_url": "https://raw.githubusercontent.com/xavfrech-dev/kentuckyrp-maj/main/manifests/manifest_0.9.94.txt",
   "manifest_md5": "a03a6c8c1340909b5b3cb2245c0e0964",
   "patches": [
